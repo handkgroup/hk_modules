@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0; 
+}
+
+h1 {
+    font-size: 36px;
+    background: linear-gradient(to right, #0099B5, #1EB53A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    font-size: 18px;
+    color: #000;
+}
+
+.underline {
+    width: 280px;
+    height: 3px;
+    background: linear-gradient(to right, #0099B5, #1EB53A);
+    margin: 10px 0;
+}

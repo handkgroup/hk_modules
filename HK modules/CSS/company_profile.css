@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 40px;
+}
+
+.left, .right {
+    
+    padding: 20px;
+    height: 290px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 420px;
+}
+
+.right {
+    width: 600px;
+    padding-left: 60px;
+}
+
+
+h1 {
+    margin: 20px 0;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+address {
+    margin: 20px 0;
+    font-style: normal;
+}
+
+.access {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.right img {
+    width: 100%;
+    height: auto;
+}
